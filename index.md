@@ -1,215 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+## Welcome to GitHub Pages
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <!-- bootstrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
-    <!-- my css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- akhir my css -->
-    <title>My Portfolio | Dion Agung</title>
-    <!--
-    <style>
-      h1 {
-        text-align: center;
-        color: blueviolet;
-      }
-    </style>
-    -->
+You can use the [editor on GitHub](https://github.com/yonesmontja/yonesmontja.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-  </head>
-  <body id="home">
-    <!--
-        <h1 class="text-center text-primary">Hello, world!</h1>
-    -->
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #8bb0f3">
-      <div class="container">
-        <a class="navbar-brand" href="#">GeGe</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Akhir Navbar -->
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/dion_pas_foto.png" alt="Dion Agung" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Dion Agung</h1>
-      <p class="lead">Pendidik berdedikasi untuk Papua masa depan</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,256L30,213.3C60,171,120,85,180,90.7C240,96,300,192,360,213.3C420,235,480,181,540,165.3C600,149,660,171,720,181.3C780,192,840,192,900,186.7C960,181,1020,171,1080,160C1140,149,1200,139,1260,128C1320,117,1380,107,1410,101.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-    <!-- Akhir jumbotron -->
+### Markdown
 
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus natus earum temporibus ratione! Obcaecati molestias at necessitatibus! Porro, optio saepe.</p>
-          </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae fuga sequi adipisci debitis repellat qui quaerat eveniet dolores blanditiis necessitatibus!</p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,128L30,149.3C60,171,120,213,180,197.3C240,181,300,107,360,80C420,53,480,75,540,90.7C600,107,660,117,720,117.3C780,117,840,107,900,122.7C960,139,1020,181,1080,208C1140,235,1200,245,1260,250.7C1320,256,1380,256,1410,256L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir about -->
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Projects</h2>
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/gambar1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Project 1</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/gambar2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Project 2</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/gambar3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Projects 3</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/gambar4.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Projects 4</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/gambar5.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Projects 5</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,160L30,170.7C60,181,120,203,180,213.3C240,224,300,224,360,202.7C420,181,480,139,540,133.3C600,128,660,160,720,186.7C780,213,840,235,900,240C960,245,1020,235,1080,192C1140,149,1200,75,1260,74.7C1320,75,1380,149,1410,186.7L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir projects -->
-    <!-- contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="name" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-success">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#8bb0f3"
-          fill-opacity="1"
-          d="M0,128L30,117.3C60,107,120,85,180,69.3C240,53,300,43,360,53.3C420,64,480,96,540,112C600,128,660,128,720,128C780,128,840,128,900,133.3C960,139,1020,149,1080,133.3C1140,117,1200,75,1260,53.3C1320,32,1380,32,1410,32L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir contact -->
+```markdown
+Syntax highlighted code block
 
-    <!-- Footer -->
-    <footer class="text-white text-center pb-5" style="background-color: #8bb0f3">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by Dion Agung 2022</p>
-    </footer>
-    <!-- akhir footer -->
-    <!-- Optional JavaScript; choose one of the two! -->
+# Header 1
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+## Header 2
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+### Header 3
 
-  </body>
-</html>
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yonesmontja/yonesmontja.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
